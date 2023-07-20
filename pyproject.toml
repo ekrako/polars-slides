@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "polars-demo"
+version = "0.1.0"
+description = "ploars demo"
+authors = ["Eran Krakovsky <eran.krakovsky@appsflyer.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+polars = "^0.18.4"
+pandas = {extras = ["pyarrow"], version = "^2.0.3"}
+jupyter = "^1.0.0"
+rise = "^5.7.1"
+jupyter-contrib-nbextensions = "^0.7.0"
+jupyter-nbextensions-configurator = "^0.6.3"
+autopep8 = "^2.0.2"
+yapf = "^0.40.1"
+pyarrow = "^12.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
